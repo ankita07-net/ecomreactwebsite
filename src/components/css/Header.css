@@ -1,0 +1,75 @@
+.header {
+  position: sticky;
+  margin: 0 auto;
+  background-color: grey;
+  top: 0;
+  max-width: 100%;
+  max-height: 80px;
+  z-index: 999;
+}
+.navbar {
+  display: block;
+  width: 100%;
+  margin: auto;
+  padding-left: 6.25rem;
+  padding-right: 6.25rem;
+  padding: 15px 30px;
+}
+.navbar::before {
+  content: "";
+  display: table;
+}
+.nav-icon {
+  float: left;
+  width: 5%;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  font-family: cursive;
+}
+.icon {
+  text-decoration: none;
+  color: black;
+}
+.icon:hover {
+  color: black;
+}
+.icon img {
+  max-width: 5rem;
+  max-height: 5rem;
+  object-fit: cover;
+}
+.nav-links {
+  float: left;
+  width: 70%;
+}
+.nav-links ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0 auto;
+}
+.nav-links ul li {
+  padding-right: 24px;
+}
+.nav-links ul li a {
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  line-height: 24px;
+}
+.cart {
+  width: 8%;
+  float: right;
+}
+.cart a {
+  text-decoration: none;
+}
+.cart a img {
+  width: 2rem;
+  height: 2rem;
+}
+.item-length {
+  color: black;
+}
