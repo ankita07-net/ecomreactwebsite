@@ -10,9 +10,9 @@ function Header() {
     <header className="header">
       <nav className="navbar">
         <div className="nav-icon">
-          <a href="/" className="icon">
+          <Link href="/" className="icon">
             Shopify
-          </a>
+          </Link>
         </div>
         <div className="nav-links">
           <ul>
